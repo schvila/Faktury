@@ -17,7 +17,7 @@ mongoose
     }
   )
   .then(result =>{
-    console.log(result);
+    console.log('mongoose connected to invoices db');
     app.listen(port);
 
   })
