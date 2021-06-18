@@ -1,22 +1,22 @@
 {
   "name": "faktury-server",
   "version": "1.0.0",
-  "description": "Faktury Server using mognodb",
+  "description": "Faktury Server using mognoose",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Standa Chvila",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mongodb": "^3.1.6"
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17"
   }
 }
